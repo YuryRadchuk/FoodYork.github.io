@@ -1,0 +1,181 @@
+@media all and (max-width:1360px) {
+
+    .container {
+        width: 769px;
+    }
+
+    .catalog div h3 {
+        font-size: 30px;
+    }
+
+    .catalog div {
+        width: 379px;
+    }
+
+    .catalog1 > div {
+        width: 100%;
+        background-size: cover;
+        margin-bottom: 10px;
+    }
+
+    .catalog1-right > div {
+        width: 379px;
+    }
+
+    .catalog1-right > div:first-child,
+    .catalog1-right > div:last-child,
+    .left-to-right .catalog1-left,
+    .left-to-right .catalog1-right > div:first-child,
+    .left-to-right .catalog1-right > div:last-child {
+        background-size: cover;
+    }
+
+    .catalog1 .catalog1-right {
+        margin-bottom: 0;
+    }
+
+    .recipe {
+        width: 100%;
+    }
+
+    .recipe:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .content-wrap .hot_selection ul li {
+        width: 379px;
+        background-size: cover;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .content-wrap .hot_selection ul li:nth-child(even) {
+        float: right;
+    }
+
+    .content-wrap .hot_selection ul li:nth-child(odd) {
+        float: left;
+    }
+
+}
+
+@media all and (max-width:992px) {
+    .container {
+        width: 569px;
+    }
+
+    .catalog div {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .catalog div:first-child,
+    .catalog div:last-child {
+        background-size: cover;
+        float: none;
+    }
+
+    .catalog1-right > div {
+        width: 100%;
+    }
+
+    .catalog1 > div:last-child {
+        height: auto;
+    }
+
+    .catalog1 > div > div {
+        height: 267px;
+    }
+
+    .catalog1-right > div:first-child {
+        margin-bottom: 10px;
+    }
+
+    .content-wrap .hot_selection ul li {
+        width: 100%;
+    }
+
+    .hot_selection ul li p {
+        font-size: 30px;
+    }
+
+    .top_authors {
+        width: 470px;
+
+    }
+
+    .top_authors div {
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+}
+
+@media all and (max-width:770px) {
+    .sideMenu {
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-wrap {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-bottom: 100px;
+    }
+
+    .container {
+        width: 300px;
+    }
+
+    .recipe {
+        height: auto;
+    }
+
+    .recipe-img {
+        float: none;
+        width: 100%;
+
+    }
+
+    .recipe-content {
+        margin-left: 0;
+    }
+
+    .recipe-img .author {
+        margin-top: 10px;
+        padding-top: 225px;
+        margin-left: 28px;
+
+    }
+
+    .top_authors {
+        width: 100%;
+    }
+
+    .subscribe {
+        height: 90px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer-nav {
+        text-align: center;
+        float: none;
+        line-height: 25px;
+    }
+
+    .footer-social {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+}
